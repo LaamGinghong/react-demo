@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="362e31fd-81d0-4234-895b-651ea781c35e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/route/context/context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/route/context/consumer/consumer.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/route/context/consumer/theme-context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/route/context/consumer/theme-toggle-button.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/pages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/pages.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/route/context-provider/context-provider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/route/context/provider/provider.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/route/context-provider/message.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/route/context/provider/message.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/route/context-provider/theme-context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/route/context/provider/theme-context.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/route/context/context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/route/context/context.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -20,11 +20,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/pages/pages.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="182">
-              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+            <state relative-caret-position="390">
+              <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -32,11 +32,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/pages/route/context/context.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+            <state relative-caret-position="312">
+              <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -76,9 +76,12 @@
         <option value="$PROJECT_DIR$/src/pages/route/context-demo/theme-context.js" />
         <option value="$PROJECT_DIR$/src/pages/route/context-demo/message.js" />
         <option value="$PROJECT_DIR$/src/pages/route/context-demo/context-demo.js" />
+        <option value="$PROJECT_DIR$/src/pages/route/context/consumer/theme-context.js" />
+        <option value="$PROJECT_DIR$/src/pages/route/context/consumer/theme-toggle-button.js" />
+        <option value="$PROJECT_DIR$/src/pages/route/context/consumer/consumer.js" />
         <option value="$PROJECT_DIR$/src/pages/button.js" />
-        <option value="$PROJECT_DIR$/src/pages/route/context/context.js" />
         <option value="$PROJECT_DIR$/src/pages/pages.js" />
+        <option value="$PROJECT_DIR$/src/pages/route/context/context.js" />
       </list>
     </option>
   </component>
@@ -128,15 +131,6 @@
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="route" type="462c0819:PsiDirectoryNode" />
               <item name="context" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="route" type="462c0819:PsiDirectoryNode" />
-              <item name="context" type="462c0819:PsiDirectoryNode" />
-              <item name="provider" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -208,7 +202,7 @@
       <updated>1561085282890</updated>
       <workItem from="1561085284292" duration="2283000" />
       <workItem from="1561088968521" duration="1048000" />
-      <workItem from="1561090138049" duration="14100000" />
+      <workItem from="1561090138049" duration="16139000" />
     </task>
     <task id="LOCAL-00001" summary="完成变量提升">
       <created>1561098723355</created>
@@ -245,11 +239,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561107452545</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="修改路由结构">
+      <created>1561108564682</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1561108564682</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17431000" />
+    <option name="totallyTimeSpent" value="19470000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
@@ -305,7 +306,8 @@
     <MESSAGE value="完成组件组合" />
     <MESSAGE value="完成context provider" />
     <MESSAGE value="修改路由地址" />
-    <option name="LAST_COMMIT_MESSAGE" value="修改路由地址" />
+    <MESSAGE value="修改路由结构" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改路由结构" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
@@ -427,16 +429,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/route/context/provider/message.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="78">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/route/context/provider/provider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
@@ -447,10 +439,60 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/route/context/consumer/theme-context.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/route/context/provider/message.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/route/context/consumer/consumer.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="676">
+          <caret line="26" column="23" selection-start-line="26" selection-start-column="23" selection-end-line="26" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/button.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="70" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
+        <state relative-caret-position="104">
+          <caret line="4" selection-start-line="4" selection-end-line="4" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/route/context/consumer/theme-toggle-button.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="14" lean-forward="true" selection-start-line="8" selection-start-column="14" selection-end-line="8" selection-end-column="14" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/pages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="15" column="36" selection-start-line="15" selection-start-column="36" selection-end-line="15" selection-end-column="36" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
@@ -459,18 +501,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/route/context/context.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/pages.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="182">
-          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+        <state relative-caret-position="312">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
