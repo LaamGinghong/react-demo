@@ -10,15 +10,19 @@ function Pipe() {
 class Consumer extends React.Component {
     constructor(props) {
         super(props);
+        this.toggleTheme = this.toggleTheme.bind(this);
         this.state = {
             theme: themes.light,
             toggleTheme: this.toggleTheme
         };
-        this.toggleTheme = this.toggleTheme.bind(this);
     }
 
     toggleTheme() {
-
+        this.setState(state => {
+            return {
+                theme: state.theme === themes.dark ? themes.light : themes.dark
+            }
+        })
     }
 
     render() {

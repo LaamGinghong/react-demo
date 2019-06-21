@@ -4,11 +4,13 @@ import React from 'react';
 function ThemeToggleButton() {
     return (
         <ThemeContext.Consumer>
-            {(theme, toggleTheme) => (
-                <button onClick={toggleTheme} style={{background: theme.background}}>变换主题</button>
+            {({theme, toggleTheme}) => (
+                <button onClick={toggleTheme} style={{backgroundColor: theme.background}}>
+                    变更主题
+                </button>
             )}
         </ThemeContext.Consumer>
-    )
+    );
 }
 
 export default ThemeToggleButton;
