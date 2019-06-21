@@ -3,6 +3,7 @@ import {BrowserRouter, Route, Switch, Redirect} from "react-router-dom";
 import Button from './button';
 
 const calculator = React.lazy(() => import('./route/common-state/calculator'));
+const componentGroup = React.lazy(() => import('./route/component-group/parent'));
 
 function Pages() {
     return (
@@ -13,6 +14,7 @@ function Pages() {
                     <Switch>
                         <Route exact path='/' render={() => ((<Redirect to='/common-state'/>))}/>
                         <Route path='/common-state' component={calculator}/>
+                        <Route path='/component-group' component={componentGroup}/>
                     </Switch>
                 </React.Suspense>
             </BrowserRouter>

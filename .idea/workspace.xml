@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="362e31fd-81d0-4234-895b-651ea781c35e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/button.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/pages.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/route/common-state/boiling-verdict.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/route/common-state/calculator.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/route/common-state/temperature-input.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/route/component-group/child.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/route/component-group/child.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/route/component-group/parent.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.test.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/button.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/pages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/pages.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -31,15 +21,12 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pages/route/common-state/calculator.js">
+        <entry file="file://$PROJECT_DIR$/src/pages/pages.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="375">
-              <caret line="45" column="53" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
+            <state relative-caret-position="416">
+              <caret line="16" column="80" selection-start-line="16" selection-start-column="80" selection-end-line="16" selection-end-column="80" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
-                <element signature="n#!!block;n#toCelsius#0" />
-                <element signature="n#!!block;n#toFahrenheit#0" />
-                <element signature="n#!!block;n#tryConvert#0" />
               </folding>
             </state>
           </provider>
@@ -51,6 +38,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="JavaScript File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -60,15 +48,18 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/App.js" />
         <option value="$PROJECT_DIR$/src/index.js" />
         <option value="$PROJECT_DIR$/src/pages/menu.json" />
-        <option value="$PROJECT_DIR$/src/pages/button.js" />
         <option value="$PROJECT_DIR$/src/pages/route/common-state/boiling-verdict.js" />
-        <option value="$PROJECT_DIR$/src/pages/pages.js" />
-        <option value="$PROJECT_DIR$/src/pages/route/common-state/temperature-input.js" />
         <option value="$PROJECT_DIR$/src/pages/route/common-state/calculator.js" />
+        <option value="$PROJECT_DIR$/src/pages/route/common-state/temperature-input.js" />
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/src/pages/route/component-group/child.css" />
+        <option value="$PROJECT_DIR$/src/pages/route/component-group/child.js" />
+        <option value="$PROJECT_DIR$/src/pages/route/component-group/parent.js" />
+        <option value="$PROJECT_DIR$/src/pages/button.js" />
+        <option value="$PROJECT_DIR$/src/pages/pages.js" />
       </list>
     </option>
   </component>
@@ -111,14 +102,6 @@
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="route" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="react-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="route" type="462c0819:PsiDirectoryNode" />
-              <item name="common-state" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -130,6 +113,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../wms-web" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -182,12 +166,27 @@
       <updated>1561085282890</updated>
       <workItem from="1561085284292" duration="2283000" />
       <workItem from="1561088968521" duration="1048000" />
-      <workItem from="1561090138049" duration="5148000" />
+      <workItem from="1561090138049" duration="7167000" />
     </task>
+    <task id="LOCAL-00001" summary="完成变量提升">
+      <created>1561098723355</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1561098723355</updated>
+    </task>
+    <task id="LOCAL-00002" summary="增加路由">
+      <created>1561100097663</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1561100097663</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="8479000" />
+    <option name="totallyTimeSpent" value="10498000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
@@ -236,14 +235,12 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="完成变量提升" />
+    <MESSAGE value="增加路由" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加路由" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="292">
-          <caret line="15" lean-forward="true" selection-start-line="15" selection-end-line="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -283,23 +280,6 @@
     <entry file="file://$PROJECT_DIR$/src/pages/menu.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/button.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="286">
-          <caret line="11" lean-forward="true" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/pages.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/route/common-state/boiling-verdict.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
@@ -309,23 +289,73 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/route/common-state/temperature-input.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-15">
-          <caret line="8" column="6" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="6" />
+        <state relative-caret-position="-171">
+          <caret line="1" selection-start-line="1" selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="11" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/route/common-state/calculator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="455">
+          <caret line="46" selection-start-line="46" selection-end-line="46" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+            <element signature="n#!!block;n#toCelsius#0" />
+            <element signature="n#!!block;n#toFahrenheit#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/route/component-group/child.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="234">
+          <caret line="9" column="18" selection-start-line="9" selection-start-column="18" selection-end-line="9" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/route/component-group/child.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="208">
+          <caret line="8" column="5" lean-forward="true" selection-start-line="8" selection-start-column="5" selection-end-line="8" selection-end-column="5" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/route/common-state/calculator.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/route/component-group/parent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="45" column="53" selection-start-line="45" selection-start-column="53" selection-end-line="45" selection-end-column="53" />
+        <state relative-caret-position="442">
+          <caret line="17" column="22" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
-            <element signature="n#!!block;n#toCelsius#0" />
-            <element signature="n#!!block;n#toFahrenheit#0" />
-            <element signature="n#!!block;n#tryConvert#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/button.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="312">
+          <caret line="12" column="69" selection-start-line="12" selection-start-column="69" selection-end-line="12" selection-end-column="69" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/pages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="16" column="80" selection-start-line="16" selection-start-column="80" selection-end-line="16" selection-end-column="80" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
