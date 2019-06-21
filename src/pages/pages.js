@@ -4,6 +4,7 @@ import Button from './button';
 
 const calculator = React.lazy(() => import('./route/common-state/calculator'));
 const componentGroup = React.lazy(() => import('./route/component-group/parent'));
+const contextProvider = React.lazy(() => import('./route/context-provider/context-provider'));
 
 function Pages() {
     return (
@@ -15,6 +16,7 @@ function Pages() {
                         <Route exact path='/' render={() => ((<Redirect to='/common-state'/>))}/>
                         <Route path='/common-state' component={calculator}/>
                         <Route path='/component-group' component={componentGroup}/>
+                        <Route path='/context' component={contextProvider}/>
                     </Switch>
                 </React.Suspense>
             </BrowserRouter>
