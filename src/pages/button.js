@@ -11,7 +11,7 @@ class Button extends React.Component {
             <div>
                 <button onClick={() => this.routeJump('/common-state')}>变量提升</button>
                 <button onClick={()=>this.routeJump('/component-group')}>组件组合</button>
-                <button onClick={()=>this.routeJump('/context')}>context</button>
+                <button onClick={()=>this.routeJump('/context-provider')}>context provider</button>
             </div>
         )
     }

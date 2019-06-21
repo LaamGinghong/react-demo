@@ -16,7 +16,7 @@ function Pages() {
                         <Route exact path='/' render={() => ((<Redirect to='/common-state'/>))}/>
                         <Route path='/common-state' component={calculator}/>
                         <Route path='/component-group' component={componentGroup}/>
-                        <Route path='/context' component={contextProvider}/>
+                        <Route path='/context-provider' component={contextProvider}/>
                     </Switch>
                 </React.Suspense>
             </BrowserRouter>
