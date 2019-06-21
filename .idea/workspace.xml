@@ -2,12 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="362e31fd-81d0-4234-895b-651ea781c35e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/route/context-provider/context-provider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/route/context-provider/message.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/route/context-provider/theme-context.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/route/context/context.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/button.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/button.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/pages.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/pages.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/route/context-provider/context-provider.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/route/context/provider/provider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/route/context-provider/message.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/route/context/provider/message.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/route/context-provider/theme-context.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/route/context/provider/theme-context.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,14 +19,39 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/pages.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="182">
+              <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/route/context/context.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="468">
+              <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="TypeScript File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -46,12 +71,13 @@
         <option value="$PROJECT_DIR$/src/pages/route/component-group/child.js" />
         <option value="$PROJECT_DIR$/src/pages/route/component-group/parent.js" />
         <option value="$PROJECT_DIR$/src/pages/route/common-state/temperature-input.js" />
-        <option value="$PROJECT_DIR$/src/pages/button.js" />
         <option value="$PROJECT_DIR$/src/pages/route/context-demo/toolbar.js" />
         <option value="$PROJECT_DIR$/src/pages/route/context-demo/message.ts" />
         <option value="$PROJECT_DIR$/src/pages/route/context-demo/theme-context.js" />
         <option value="$PROJECT_DIR$/src/pages/route/context-demo/message.js" />
         <option value="$PROJECT_DIR$/src/pages/route/context-demo/context-demo.js" />
+        <option value="$PROJECT_DIR$/src/pages/button.js" />
+        <option value="$PROJECT_DIR$/src/pages/route/context/context.js" />
         <option value="$PROJECT_DIR$/src/pages/pages.js" />
       </list>
     </option>
@@ -95,6 +121,23 @@
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="route" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="react-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="route" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="route" type="462c0819:PsiDirectoryNode" />
+              <item name="context" type="462c0819:PsiDirectoryNode" />
+              <item name="provider" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -120,6 +163,11 @@
     <property name="restartRequiresConfirmation" value="false" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="D:\WebStorm 2019.1.1\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\react-demo\src\pages\route\context" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -160,7 +208,7 @@
       <updated>1561085282890</updated>
       <workItem from="1561085284292" duration="2283000" />
       <workItem from="1561088968521" duration="1048000" />
-      <workItem from="1561090138049" duration="12988000" />
+      <workItem from="1561090138049" duration="14100000" />
     </task>
     <task id="LOCAL-00001" summary="完成变量提升">
       <created>1561098723355</created>
@@ -183,14 +231,29 @@
       <option name="project" value="LOCAL" />
       <updated>1561100633045</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="完成context provider">
+      <created>1561107284506</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1561107284506</updated>
+    </task>
+    <task id="LOCAL-00005" summary="修改路由地址">
+      <created>1561107452545</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1561107452545</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="16319000" />
+    <option name="totallyTimeSpent" value="17431000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24973656" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -240,7 +303,9 @@
     <MESSAGE value="完成变量提升" />
     <MESSAGE value="增加路由" />
     <MESSAGE value="完成组件组合" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成组件组合" />
+    <MESSAGE value="完成context provider" />
+    <MESSAGE value="修改路由地址" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改路由地址" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/serviceWorker.js">
@@ -342,16 +407,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/button.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="338">
-          <caret line="13" column="61" selection-start-line="13" selection-start-column="61" selection-end-line="13" selection-end-column="61" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/route/context-demo/toolbar.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
@@ -362,27 +417,17 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/route/context-provider/message.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/route/context/provider/message.js">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/route/context-provider/theme-context.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/route/context/provider/theme-context.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
           <caret line="10" column="5" selection-start-line="7" selection-start-column="10" selection-end-line="10" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/pages.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="130">
-          <caret line="5" column="55" selection-start-line="5" selection-start-column="55" selection-end-line="5" selection-end-column="55" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/route/context-provider/message.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/route/context/provider/message.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
           <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
@@ -392,10 +437,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/route/context-provider/context-provider.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/route/context/provider/provider.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="416">
           <caret line="16" column="55" lean-forward="true" selection-start-line="16" selection-start-column="55" selection-end-line="16" selection-end-column="55" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/button.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="70" selection-start-line="13" selection-start-column="70" selection-end-line="13" selection-end-column="70" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/route/context/context.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="468">
+          <caret line="18" column="23" selection-start-line="18" selection-start-column="23" selection-end-line="18" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/pages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" lean-forward="true" selection-start-line="7" selection-end-line="7" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>

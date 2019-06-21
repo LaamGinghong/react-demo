@@ -8,7 +8,7 @@ function Pipe(props) {
     )
 }
 
-class ContextProvider extends React.Component {
+class Provider extends React.Component {
     constructor(props) {
         super(props);
         this.state = {
@@ -34,4 +34,4 @@ class ContextProvider extends React.Component {
     }
 }
 
-export default ContextProvider;
+export default Provider;
