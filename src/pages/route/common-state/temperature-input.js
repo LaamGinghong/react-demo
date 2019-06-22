@@ -1,4 +1,6 @@
 import React from 'react';
+import Input from 'antd/es/input'
+import 'antd/es/input/style/css'
 
 const scaleNames = {
     c: '摄氏温度',
@@ -23,7 +25,7 @@ class TemperatureInput extends React.Component {
         return (
             <fieldset>
                 <legend>请输入水的{scaleNames[scale]}:</legend>
-                <input
+                <Input
                     value={temperature}
                     onChange={this.handleChange}/>
             </fieldset>
