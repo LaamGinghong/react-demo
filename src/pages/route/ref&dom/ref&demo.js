@@ -26,3 +26,4 @@ class RefDemo extends React.Component {
 }
 
 export default RefDemo;
+//就是ng里面的ViewElementRef
