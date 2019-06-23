@@ -11,24 +11,31 @@ class ButtonGroup extends React.Component {
                 {url: '/common-state', name: '变量提升', type: 'primary'},
                 {url: '/component-group', name: '组件组合'},
                 {url: '/context/provider', name: 'context provider'},
-                {url: '/context/consumer', name: 'context consumer'}
+                {url: '/context/consumer', name: 'context consumer'},
+                {url: '/ref&demo', name: 'ref and demo'}
             ]
         }
     }
 
 
     componentDidMount() {
+        const pathname = this.props.location.pathname;
+        this.setType(pathname);
         this.props.history.listen(route => {
-            this.setState(state => {
-                return {
-                    buttonLists: state.buttonLists.map(item => ({
-                        url: item.url,
-                        name: item.name,
-                        type: item.url === route.pathname ? 'primary' : ''
-                    }))
-                }
-            });
+            this.setType(route.pathname);
         })
+    }
+
+    setType(name) {
+        this.setState(state => {
+            return {
+                buttonLists: state.buttonLists.map(item => ({
+                    url: item.url,
+                    name: item.name,
+                    type: item.url === name ? 'primary' : ''
+                }))
+            }
+        });
     }
 
     routeJump(route) {
