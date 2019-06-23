@@ -18,6 +18,7 @@ class RefDemo extends React.Component {
     render() {
         return (
             <div>
+                相当于ng中的@ViewElementRef
                 <Button onClick={this.getRef}>获取ref</Button>
                 <Input placeholder='请输入' ref={this.input}/>
             </div>
@@ -26,4 +27,3 @@ class RefDemo extends React.Component {
 }
 
 export default RefDemo;
-//就是ng里面的ViewElementRef

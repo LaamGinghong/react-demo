@@ -27,9 +27,12 @@ class Consumer extends React.Component {
 
     render() {
         return (
-            <ThemeContext.Provider value={this.state}>
-                <Pipe/>
-            </ThemeContext.Provider>
+            <React.Fragment>
+                在子组件中调用父组件的方法和state控制子组件
+                <ThemeContext.Provider value={this.state}>
+                    <Pipe/>
+                </ThemeContext.Provider>
+            </React.Fragment>
         )
     }
 }

@@ -12,7 +12,8 @@ class ButtonGroup extends React.Component {
                 {url: '/component-group', name: '组件组合'},
                 {url: '/context/provider', name: 'context provider'},
                 {url: '/context/consumer', name: 'context consumer'},
-                {url: '/ref&demo', name: 'ref and demo'}
+                {url: '/ref&demo', name: 'ref and demo'},
+                {url: '/fragments', name: 'fragments'}
             ]
         }
     }

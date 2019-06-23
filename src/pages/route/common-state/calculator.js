@@ -47,6 +47,7 @@ class Calculator extends React.Component {
 
         return (
             <div>
+                <h2>抽取公用状态，组件复用</h2>
                 <TemperatureInput scale='c' temperature={celsius} onTemperatureChange={this.handleCelsiusChange}/>
                 <TemperatureInput scale='f' temperature={fahrenheit} onTemperatureChange={this.handleFahrenheitChange}/>
                 <BoilingVerdict celsius={parseFloat(celsius)}/>

@@ -6,6 +6,7 @@ const calculator = React.lazy(() => import('./route/common-state/calculator'));
 const componentGroup = React.lazy(() => import('./route/component-group/parent'));
 const context = React.lazy(() => import('./route/context/context'));
 const refDemo = React.lazy(() => import('./route/ref&dom/ref&demo'));
+const fragments = React.lazy(() => import('./route/fragments/fragments'));
 
 function Pages() {
     return (
@@ -19,6 +20,7 @@ function Pages() {
                         <Route path='/component-group' component={componentGroup}/>
                         <Route path='/context' component={context}/>
                         <Route path='/ref&demo' component={refDemo}/>
+                        <Route path='/fragments' component={fragments}/>
                     </Switch>
                 </React.Suspense>
             </BrowserRouter>

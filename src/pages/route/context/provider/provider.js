@@ -27,9 +27,12 @@ class Provider extends React.Component {
 
     render() {
         return (
-            <ThemeContext.Provider value={this.state.theme}>
-                <Pipe changeTheme={this.toggleTheme}/>
-            </ThemeContext.Provider>
+            <React.Fragment>
+                在中间组件中调用父组件的方法和state控制子组件
+                <ThemeContext.Provider value={this.state.theme}>
+                    <Pipe changeTheme={this.toggleTheme}/>
+                </ThemeContext.Provider>
+            </React.Fragment>
         )
     }
 }
