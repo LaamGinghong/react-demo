@@ -1,8 +1,5 @@
 import React from "react";
-import Input from 'antd/es/input';
-import 'antd/es/input/style/css';
-import Button from "antd/es/button";
-import 'antd/es/button/style/css';
+import {Input, Button} from "antd";
 
 class RefDemo extends React.Component {
     constructor(props) {

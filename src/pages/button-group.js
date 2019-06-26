@@ -1,7 +1,6 @@
 import React from 'react';
 import {withRouter} from 'react-router-dom';
-import Button from 'antd/es/button';
-import 'antd/es/button/style/css';
+import {Button} from "antd";
 
 class ButtonGroup extends React.Component {
     constructor(props) {

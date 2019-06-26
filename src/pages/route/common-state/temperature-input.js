@@ -1,6 +1,5 @@
 import React from 'react';
-import Input from 'antd/es/input'
-import 'antd/es/input/style/css'
+import {Input} from "antd";
 
 const scaleNames = {
     c: '摄氏温度',
