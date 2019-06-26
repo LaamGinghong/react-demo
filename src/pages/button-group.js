@@ -12,7 +12,8 @@ class ButtonGroup extends React.Component {
                 {url: '/context/provider', name: 'context provider'},
                 {url: '/context/consumer', name: 'context consumer'},
                 {url: '/ref&demo', name: 'ref and demo'},
-                {url: '/fragments', name: 'fragments'}
+                {url: '/fragments', name: 'fragments'},
+                {url: '/hoc', name: 'hoc'}
             ]
         }
     }

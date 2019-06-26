@@ -7,6 +7,7 @@ const componentGroup = React.lazy(() => import('./route/component-group/parent')
 const context = React.lazy(() => import('./route/context/context'));
 const refDemo = React.lazy(() => import('./route/ref&dom/ref&demo'));
 const fragments = React.lazy(() => import('./route/fragments/fragments'));
+const hoc = React.lazy(() => import('./route/hoc/hoc'));
 
 function Pages() {
     return (
@@ -21,6 +22,7 @@ function Pages() {
                         <Route path='/context' component={context}/>
                         <Route path='/ref&demo' component={refDemo}/>
                         <Route path='/fragments' component={fragments}/>
+                        <Route path='/hoc' component={hoc}/>
                     </Switch>
                 </React.Suspense>
             </BrowserRouter>
