@@ -1,6 +1,6 @@
 import * as React from "react";
 
-class Props extends React.Component {
+class DefaultProps extends React.Component {
     constructor(props) {
         super(props);
         this.state = {name: props.name}
@@ -24,8 +24,8 @@ class Props extends React.Component {
     }
 }
 
-Props.defaultProps = {
+DefaultProps.defaultProps = {
     name: 'Jack'
 };
 
-export default Props;
+export default DefaultProps;
