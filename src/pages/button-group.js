@@ -17,7 +17,8 @@ class ButtonGroup extends React.Component {
                 {url: '/hoc/rendering-hijacked', name: 'hoc rendering hijacked'},
                 {url: '/hoc/route-guard', name: 'hoc 路由守卫'},
                 {url: '/portal', name: 'Portal'},
-                {url: '/default-props', name: 'default props'}
+                {url: '/default-props', name: 'default props'},
+                {url: '/render-props', name: 'render props'}
             ]
         }
     }

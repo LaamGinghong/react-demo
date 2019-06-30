@@ -10,6 +10,7 @@ const fragments = React.lazy(() => import('./route/fragments/fragments'));
 const hoc = React.lazy(() => import('./route/hoc/hoc'));
 const portal = React.lazy(() => import('./route/portal/portal'));
 const defaultProps = React.lazy(() => import('./route/default-props/default-props'));
+const renderProps = React.lazy(() => import('./route/render-props/tracker'));
 
 function Pages() {
     return (
@@ -27,6 +28,7 @@ function Pages() {
                         <Route path='/hoc' component={hoc}/>
                         <Route path='/portal' component={portal}/>
                         <Route path='/default-props' component={defaultProps}/>
+                        <Route path='/render-props' component={renderProps}/>
                     </Switch>
                 </React.Suspense>
             </BrowserRouter>
