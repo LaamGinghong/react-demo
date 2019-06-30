@@ -11,6 +11,7 @@ const hoc = React.lazy(() => import('./route/hoc/hoc'));
 const portal = React.lazy(() => import('./route/portal/portal'));
 const defaultProps = React.lazy(() => import('./route/default-props/default-props'));
 const renderProps = React.lazy(() => import('./route/render-props/tracker'));
+const fileInput = React.lazy(() => import('./route/file-input/file-input'));
 
 function Pages() {
     return (
@@ -29,6 +30,7 @@ function Pages() {
                         <Route path='/portal' component={portal}/>
                         <Route path='/default-props' component={defaultProps}/>
                         <Route path='/render-props' component={renderProps}/>
+                        <Route path='/file-input' component={fileInput}/>
                     </Switch>
                 </React.Suspense>
             </BrowserRouter>
