@@ -12,6 +12,7 @@ const portal = React.lazy(() => import('./route/portal/portal'));
 const defaultProps = React.lazy(() => import('./route/default-props/default-props'));
 const renderProps = React.lazy(() => import('./route/render-props/tracker'));
 const fileInput = React.lazy(() => import('./route/file-input/file-input'));
+const apiReference = React.lazy(() => import('./route/api-reference/api-reference'));
 
 function Pages() {
     return (
@@ -31,6 +32,7 @@ function Pages() {
                         <Route path='/default-props' component={defaultProps}/>
                         <Route path='/render-props' component={renderProps}/>
                         <Route path='/file-input' component={fileInput}/>
+                        <Route path='/api-reference' component={apiReference}/>
                     </Switch>
                 </React.Suspense>
             </BrowserRouter>

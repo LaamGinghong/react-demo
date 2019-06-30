@@ -19,7 +19,8 @@ class ButtonGroup extends React.Component {
                 {url: '/portal', name: 'Portal'},
                 {url: '/default-props', name: 'default props'},
                 {url: '/render-props', name: 'render props'},
-                {url: '/file-input', name: 'file input'}
+                {url: '/file-input', name: 'file input'},
+                {url: '/api-reference', name: 'api reference'}
             ]
         }
     }
