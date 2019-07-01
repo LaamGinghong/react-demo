@@ -4,13 +4,15 @@ import {Switch, Route, Redirect} from 'react-router-dom';
 
 const cloneElement = React.lazy(() => import('./clone-element/clone-element'));
 const isValidElement = React.lazy(() => import('./is-valid-element/is-valid-element'));
+const createRef = React.lazy(() => import('./create-ref/create-ref'));
 
 class ApiReference extends React.Component {
     constructor(props) {
         super(props);
         this.buttons = [
             {url: '/api-reference/clone-element', name: 'cloneElement'},
-            {url: '/api-reference/is-valid-element', name: 'isValidElement'}
+            {url: '/api-reference/is-valid-element', name: 'isValidElement'},
+            {url: '/api-reference/create-ref', name: 'createRef'}
         ]
     }
 
@@ -37,6 +39,7 @@ class ApiReference extends React.Component {
                                render={() => ((<Redirect to='/api-reference/clone-element'/>))}/>
                         <Route path='/api-reference/clone-element' component={cloneElement}/>
                         <Route path='/api-reference/is-valid-element' component={isValidElement}/>
+                        <Route path='/api-reference/create-ref' component={createRef}/>
                     </Switch>
                 </div>
             </>

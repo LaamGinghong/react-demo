@@ -13,7 +13,7 @@ class IsValidElement extends React.Component {
         ];
         this.state = {
             value: 1
-        }
+        };
         this.judgeIsValidElement = this.judgeIsValidElement.bind(this);
     }
 
