@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="362e31fd-81d0-4234-895b-651ea781c35e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/route/api-reference/lazy-load/child.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/route/api-reference/lazy-load/parent.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/route/api-reference/life-circle/life-circle.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/route/api-reference/api-reference.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/route/api-reference/api-reference.js" afterDir="false" />
     </list>
@@ -18,23 +17,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/route/api-reference/api-reference.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="168">
-              <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
-              <folding>
-                <element signature="e#0#31#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pages/route/api-reference/lazy-load/parent.js">
+        <entry file="file://$PROJECT_DIR$/src/pages/route/api-reference/life-circle/life-circle.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+            <state relative-caret-position="189">
+              <caret line="9" selection-start-line="9" selection-end-line="9" />
             </state>
           </provider>
         </entry>
@@ -61,7 +48,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/pages/route/context/consumer/theme-toggle-button.js" />
         <option value="$PROJECT_DIR$/src/pages/route/context/context.js" />
         <option value="$PROJECT_DIR$/src/share/share.js" />
         <option value="$PROJECT_DIR$/src/pages/route/common-state/calculator.js" />
@@ -110,8 +96,9 @@
         <option value="$PROJECT_DIR$/src/pages/route/api-reference/forward-ref/forward-ref.js" />
         <option value="$PROJECT_DIR$/src/pages/route/api-reference/lazy-load/lazy-load.js" />
         <option value="$PROJECT_DIR$/src/pages/route/api-reference/lazy-load/child.js" />
-        <option value="$PROJECT_DIR$/src/pages/route/api-reference/api-reference.js" />
         <option value="$PROJECT_DIR$/src/pages/route/api-reference/lazy-load/parent.js" />
+        <option value="$PROJECT_DIR$/src/pages/route/api-reference/api-reference.js" />
+        <option value="$PROJECT_DIR$/src/pages/route/api-reference/life-circle/life-circle.js" />
       </list>
     </option>
   </component>
@@ -249,7 +236,7 @@
       <workItem from="1561616088557" duration="23000" />
       <workItem from="1561630454823" duration="1727000" />
       <workItem from="1561690068726" duration="2320000" />
-      <workItem from="1561816201912" duration="10682000" />
+      <workItem from="1561816201912" duration="11700000" />
     </task>
     <task id="LOCAL-00001" summary="完成变量提升">
       <created>1561098723355</created>
@@ -426,11 +413,18 @@
       <option name="project" value="LOCAL" />
       <updated>1561946687307</updated>
     </task>
-    <option name="localTasksCounter" value="26" />
+    <task id="LOCAL-00026" summary="完成React.lazy,React.Suspense">
+      <created>1561947838654</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1561947838654</updated>
+    </task>
+    <option name="localTasksCounter" value="27" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="58581000" />
+    <option name="totallyTimeSpent" value="59599000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
@@ -519,7 +513,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="完成变量提升" />
     <MESSAGE value="增加路由" />
     <MESSAGE value="完成组件组合" />
     <MESSAGE value="完成context provider" />
@@ -544,10 +537,10 @@
     <MESSAGE value="完成isValidElement" />
     <MESSAGE value="完成createRef" />
     <MESSAGE value="完成forwardRef" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成forwardRef" />
+    <MESSAGE value="完成React.lazy,React.Suspense" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成React.lazy,React.Suspense" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/node_modules/antd/es/button/style/css.js" />
     <entry file="file://$PROJECT_DIR$/src/pages/route/context/provider/theme-context.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="198">
@@ -938,16 +931,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/route/api-reference/api-reference.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="58" selection-start-line="8" selection-start-column="58" selection-end-line="8" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/route/api-reference/lazy-load/child.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -957,8 +940,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/route/api-reference/lazy-load/parent.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="4" selection-start-line="2" selection-start-column="4" selection-end-line="2" selection-end-column="4" />
+        <state relative-caret-position="210">
+          <caret line="10" column="9" lean-forward="true" selection-start-line="10" selection-start-column="9" selection-end-line="10" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/route/api-reference/api-reference.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="626">
+          <caret line="50" column="86" selection-start-line="50" selection-start-column="86" selection-end-line="50" selection-end-column="86" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/route/api-reference/life-circle/life-circle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
         </state>
       </provider>
     </entry>
