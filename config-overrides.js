@@ -1,9 +1,23 @@
-const {override, fixBabelImports} = require('customize-cra');
+const {override, fixBabelImports, addDecoratorsLegacy} = require('customize-cra');
+const path = require('path');
 
-module.exports = override(
-    fixBabelImports('import', {
-        libraryName: 'antd',
-        libraryDirectory: 'es',
-        style: 'css',
-    }),
-);
+function resolve(dir) {
+    return path.join(__dirname, dir)
+}
+
+const customize = () => (config, env) => {
+    config.resolve.alias['@'] = resolve('src');
+    if (env === 'production') {
+        config.externals = {
+            'react': 'React',
+            'react-dom': 'ReactDOM'
+        }
+    }
+    return config;
+};
+
+module.exports = override(addDecoratorsLegacy(), customize(), fixBabelImports('import', {
+    libraryName: 'antd',
+    libraryDirectory: 'es',
+    style: 'css',
+}),);
