@@ -2,7 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="362e31fd-81d0-4234-895b-651ea781c35e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/route/hook/effect-hook/effect-hook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/route/hook/common-hook/common-hook.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/route/hook/common-hook/friend-list-item.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/route/hook/common-hook/friend-status.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/route/hook/common-hook/use-friend-status.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/route/hook/hook.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/route/hook/hook.js" afterDir="false" />
     </list>
@@ -18,10 +21,22 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pages/route/hook/effect-hook/effect-hook.js">
+        <entry file="file://$PROJECT_DIR$/src/pages/route/hook/common-hook/friend-list-item.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="147">
-              <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+            <state relative-caret-position="126">
+              <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/route/hook/common-hook/common-hook.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="273">
+              <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
               <folding>
                 <element signature="e#0#26#0" expanded="true" />
               </folding>
@@ -51,11 +66,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/pages/route/context/consumer/consumer.js" />
-        <option value="$PROJECT_DIR$/src/pages/route/context/provider/provider.js" />
-        <option value="$PROJECT_DIR$/src/pages/route/component-group/parent.js" />
-        <option value="$PROJECT_DIR$/src/pages/route/fragments/fragments.js" />
-        <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/src/pages/route/hoc/comment.js" />
         <option value="$PROJECT_DIR$/package.json" />
         <option value="$PROJECT_DIR$/config-overrides.js" />
@@ -100,8 +110,13 @@
         <option value="$PROJECT_DIR$/src/pages/button-group.js" />
         <option value="$PROJECT_DIR$/src/pages/pages.js" />
         <option value="$PROJECT_DIR$/src/pages/route/hook/state-hook/state-hook.js" />
-        <option value="$PROJECT_DIR$/src/pages/route/hook/hook.js" />
         <option value="$PROJECT_DIR$/src/pages/route/hook/effect-hook/effect-hook.js" />
+        <option value="$PROJECT_DIR$/src/pages/route/hook/common-hook/useFriendStatus.js" />
+        <option value="$PROJECT_DIR$/src/pages/route/hook/hook.js" />
+        <option value="$PROJECT_DIR$/src/pages/route/hook/common-hook/friend-status.js" />
+        <option value="$PROJECT_DIR$/src/pages/route/hook/common-hook/use-friend-status.js" />
+        <option value="$PROJECT_DIR$/src/pages/route/hook/common-hook/common-hook.js" />
+        <option value="$PROJECT_DIR$/src/pages/route/hook/common-hook/friend-list-item.js" />
       </list>
     </option>
   </component>
@@ -124,7 +139,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -158,10 +172,20 @@
               <item name="route" type="462c0819:PsiDirectoryNode" />
               <item name="hook" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="react-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="route" type="462c0819:PsiDirectoryNode" />
+              <item name="hook" type="462c0819:PsiDirectoryNode" />
+              <item name="common-hook" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -240,7 +264,8 @@
       <workItem from="1561630454823" duration="1727000" />
       <workItem from="1561690068726" duration="2320000" />
       <workItem from="1561816201912" duration="12657000" />
-      <workItem from="1562122864523" duration="4310000" />
+      <workItem from="1562122864523" duration="4898000" />
+      <workItem from="1562135148099" duration="2008000" />
     </task>
     <task id="LOCAL-00001" summary="完成变量提升">
       <created>1561098723355</created>
@@ -445,14 +470,28 @@
       <option name="project" value="LOCAL" />
       <updated>1562133438850</updated>
     </task>
-    <option name="localTasksCounter" value="30" />
+    <task id="LOCAL-00030" summary="完成state hook">
+      <created>1562134387793</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1562134387793</updated>
+    </task>
+    <task id="LOCAL-00031" summary="完成effect hook">
+      <created>1562134425383</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1562134425383</updated>
+    </task>
+    <option name="localTasksCounter" value="32" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="64866000" />
+    <option name="totallyTimeSpent" value="67462000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
@@ -535,11 +574,11 @@
         <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/input-names.js" />
         <option value="$PROJECT_DIR$/../wms-web/node_modules/karma/config.tpl.js" />
         <option value="$PROJECT_DIR$/../wms-web/node_modules/karma/config.tpl.js" />
+        <option value="$PROJECT_DIR$/../wms-web/node_modules/karma/config.tpl.js" />
       </list>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="修改路由地址" />
     <MESSAGE value="修改路由结构" />
     <MESSAGE value="解决多级路由不更新视图bug" />
     <MESSAGE value="引入antd" />
@@ -564,46 +603,10 @@
     <MESSAGE value="完成生命周期展示" />
     <MESSAGE value="生成 hook页面" />
     <MESSAGE value="完成state hook" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成state hook" />
+    <MESSAGE value="完成effect hook" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成effect hook" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pages/route/context/consumer/consumer.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="30" selection-start-line="30" selection-end-line="31" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/route/context/consumer/theme-context.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="154">
-          <caret line="7" column="3" selection-start-line="7" selection-start-column="3" selection-end-line="7" selection-end-column="3" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/route/context/provider/provider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="594">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config-overrides.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="104">
-          <caret line="4" column="28" lean-forward="true" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/route/common-state/boiling-verdict.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="78">
@@ -951,20 +954,57 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/route/hook/hook.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/route/hook/effect-hook/effect-hook.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="63" selection-start-line="5" selection-start-column="63" selection-end-line="5" selection-end-column="63" />
+        <state relative-caret-position="273">
+          <caret line="13" column="30" selection-start-line="13" selection-start-column="30" selection-end-line="13" selection-end-column="30" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/route/hook/effect-hook/effect-hook.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/route/hook/hook.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="7" column="41" selection-start-line="7" selection-start-column="41" selection-end-line="7" selection-end-column="41" />
+        <state relative-caret-position="493">
+          <caret line="35" column="77" selection-start-line="35" selection-start-column="77" selection-end-line="35" selection-end-column="77" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/route/hook/common-hook/friend-status.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" selection-start-line="6" selection-end-line="6" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/route/hook/common-hook/use-friend-status.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/route/hook/common-hook/common-hook.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="28" selection-start-line="13" selection-start-column="28" selection-end-line="13" selection-end-column="28" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/route/hook/common-hook/friend-list-item.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="54" selection-start-line="6" selection-start-column="54" selection-end-line="6" selection-end-column="54" />
           <folding>
             <element signature="e#0#26#0" expanded="true" />
           </folding>
