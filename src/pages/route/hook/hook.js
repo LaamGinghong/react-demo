@@ -3,12 +3,14 @@ import {Route, Switch, Redirect} from "react-router-dom";
 import {Button} from "antd";
 
 const stateHook = React.lazy(() => import('./state-hook/state-hook'));
+const effectHook = React.lazy(() => import('./effect-hook/effect-hook'));
 
 class Hook extends React.Component {
     constructor(props) {
         super(props);
         this.buttons = [
-            {url: '/hook/state-hook', name: 'State Hook'}
+            {url: '/hook/state-hook', name: 'State Hook'},
+            {url: '/hook/effect-hook', name: 'Effect Hook'}
         ]
     }
 
@@ -27,7 +29,8 @@ class Hook extends React.Component {
                     <Switch>
                         <Route exact path='/hook'
                                render={() => ((<Redirect to='/hook/state-hook'/>))}/>
-                        <Route url='/hook/state-hook' component={stateHook}/>
+                        <Route path='/hook/state-hook' component={stateHook}/>
+                        <Route path='/hook/effect-hook' component={effectHook}/>
                     </Switch>
                 </React.Suspense>
             </>
