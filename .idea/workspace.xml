@@ -2,7 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="362e31fd-81d0-4234-895b-651ea781c35e" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/pages/route/hook/state-hook/state-hook.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/route/hook/hook.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/route/hook/hook.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -14,7 +16,20 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/pages/route/hook/state-hook/state-hook.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="294">
+              <caret line="14" selection-start-line="14" selection-end-line="14" />
+              <folding>
+                <element signature="e#0#26#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -36,8 +51,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/pages/route/context/context.js" />
-        <option value="$PROJECT_DIR$/src/share/share.js" />
         <option value="$PROJECT_DIR$/src/pages/route/common-state/calculator.js" />
         <option value="$PROJECT_DIR$/src/pages/route/context/consumer/consumer.js" />
         <option value="$PROJECT_DIR$/src/pages/route/context/provider/provider.js" />
@@ -70,8 +83,6 @@
         <option value="$PROJECT_DIR$/src/pages/route/render-props/tracker.js" />
         <option value="$PROJECT_DIR$/src/pages/route/render-props/canvas.js" />
         <option value="$PROJECT_DIR$/src/pages/route/file-input/file-input.js" />
-        <option value="$PROJECT_DIR$/src/pages/button-group.js" />
-        <option value="$PROJECT_DIR$/src/pages/pages.js" />
         <option value="$PROJECT_DIR$/src/pages/route/api-reference/clone-element/index.js" />
         <option value="$PROJECT_DIR$/src/pages/route/api-reference/clone-element/clone-element.js" />
         <option value="$PROJECT_DIR$/src/pages/route/api-reference/clone-element/is-valid-element.js" />
@@ -87,6 +98,10 @@
         <option value="$PROJECT_DIR$/src/pages/route/api-reference/lazy-load/parent.js" />
         <option value="$PROJECT_DIR$/src/pages/route/api-reference/api-reference.js" />
         <option value="$PROJECT_DIR$/src/pages/route/api-reference/life-circle/life-circle.js" />
+        <option value="$PROJECT_DIR$/src/pages/button-group.js" />
+        <option value="$PROJECT_DIR$/src/pages/pages.js" />
+        <option value="$PROJECT_DIR$/src/pages/route/hook/hook.js" />
+        <option value="$PROJECT_DIR$/src/pages/route/hook/state-hook/state-hook.js" />
       </list>
     </option>
   </component>
@@ -134,6 +149,23 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="route" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="route" type="462c0819:PsiDirectoryNode" />
+              <item name="hook" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="react-demo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="react-demo" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="pages" type="462c0819:PsiDirectoryNode" />
+              <item name="route" type="462c0819:PsiDirectoryNode" />
+              <item name="hook" type="462c0819:PsiDirectoryNode" />
+              <item name="state-hook" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -217,7 +249,7 @@
       <workItem from="1561630454823" duration="1727000" />
       <workItem from="1561690068726" duration="2320000" />
       <workItem from="1561816201912" duration="12657000" />
-      <workItem from="1562122864523" duration="787000" />
+      <workItem from="1562122864523" duration="3370000" />
     </task>
     <task id="LOCAL-00001" summary="完成变量提升">
       <created>1561098723355</created>
@@ -408,14 +440,22 @@
       <option name="project" value="LOCAL" />
       <updated>1561949154801</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="生成 hook页面">
+      <created>1562124306179</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1562124306179</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61343000" />
+    <option name="totallyTimeSpent" value="63926000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
@@ -496,11 +536,11 @@
         <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/output-names.js" />
         <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/input-names.js" />
         <option value="$PROJECT_DIR$/../wms-web/node_modules/karma/config.tpl.js" />
+        <option value="$PROJECT_DIR$/../wms-web/node_modules/karma/config.tpl.js" />
       </list>
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="完成组件组合" />
     <MESSAGE value="完成context provider" />
     <MESSAGE value="修改路由地址" />
     <MESSAGE value="修改路由结构" />
@@ -525,26 +565,10 @@
     <MESSAGE value="完成forwardRef" />
     <MESSAGE value="完成React.lazy,React.Suspense" />
     <MESSAGE value="完成生命周期展示" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成生命周期展示" />
+    <MESSAGE value="生成 hook页面" />
+    <option name="LAST_COMMIT_MESSAGE" value="生成 hook页面" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pages/route/context/provider/theme-context.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="198">
-          <caret line="9" column="30" lean-forward="true" selection-start-line="9" selection-start-column="30" selection-end-line="9" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/route/context/provider/message.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="110">
-          <caret line="5" column="32" selection-start-line="5" selection-start-column="27" selection-end-line="5" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/route/context/consumer/theme-toggle-button.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -817,32 +841,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/route/context/context.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="2" selection-start-column="2" selection-end-column="2" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/route/api-reference/clone-element/clone-element.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
           <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/button-group.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-173">
-          <caret line="22" column="60" selection-start-line="22" selection-start-column="60" selection-end-line="22" selection-end-column="60" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -887,16 +891,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/pages.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="26" column="35" lean-forward="true" selection-start-line="26" selection-start-column="35" selection-end-line="26" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/route/api-reference/lazy-load/child.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -911,20 +905,70 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/route/api-reference/life-circle/life-circle.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="462">
+          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/route/api-reference/api-reference.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="626">
-          <caret line="50" column="86" selection-start-line="50" selection-start-column="86" selection-end-line="50" selection-end-column="86" />
+        <state relative-caret-position="313">
+          <caret line="44" column="97" lean-forward="true" selection-start-line="43" selection-start-column="24" selection-end-line="44" selection-end-column="97" />
           <folding>
             <element signature="e#0#31#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/route/api-reference/life-circle/life-circle.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/button-group.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="11" selection-start-line="22" selection-start-column="11" selection-end-line="22" selection-end-column="11" />
+        <state relative-caret-position="-339">
+          <caret line="23" column="42" selection-start-line="23" selection-start-column="42" selection-end-line="23" selection-end-column="42" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/pages.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="545">
+          <caret line="36" column="59" selection-start-line="36" selection-start-column="59" selection-end-line="36" selection-end-column="59" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/route/context/context.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="2" selection-start-column="2" selection-end-column="2" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/route/hook/hook.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="588">
+          <caret line="28" column="77" selection-start-line="28" selection-start-column="77" selection-end-line="28" selection-end-column="77" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/route/hook/state-hook/state-hook.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
