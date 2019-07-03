@@ -10,6 +10,7 @@ export function useFriendStatus(friendId) {
 
     React.useEffect(() => {
         handleStatusChange();
+        return () => handleStatusChange();
     });
 
     return isOnline;

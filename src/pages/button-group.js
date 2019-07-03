@@ -21,7 +21,8 @@ class ButtonGroup extends React.Component {
                 {url: '/render-props', name: 'render props'},
                 {url: '/file-input', name: 'file input'},
                 {url: '/api-reference', name: 'api reference'},
-                {url: '/hook', name: 'hook'}
+                {url: '/hook', name: 'hook'},
+                {url: '/mobx', name: 'Mobx'}
             ]
         }
     }

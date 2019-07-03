@@ -14,6 +14,7 @@ const renderProps = React.lazy(() => import('./route/render-props/tracker'));
 const fileInput = React.lazy(() => import('./route/file-input/file-input'));
 const apiReference = React.lazy(() => import('./route/api-reference/api-reference'));
 const hook = React.lazy(() => import('./route/hook/hook'));
+const mobx = React.lazy(() => import('./route/mobx/mobx'));
 
 function Pages() {
     return (
@@ -35,6 +36,7 @@ function Pages() {
                         <Route path='/file-input' component={fileInput}/>
                         <Route path='/api-reference' component={apiReference}/>
                         <Route path='/hook' component={hook}/>
+                        <Route path='/mobx' component={mobx}/>
                     </Switch>
                 </React.Suspense>
             </BrowserRouter>
