@@ -1,9 +1,13 @@
 import React from "react";
+import TodoListView from "./todo-list-view";
+import {TodoList} from "./todo-list";
+
+const store = new TodoList();
 
 function Begin() {
     return (
         <div>
-            123
+            <TodoListView todoList={store}/>
         </div>
     )
 }

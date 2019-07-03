@@ -2,12 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="362e31fd-81d0-4234-895b-651ea781c35e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/route/mobx/begin/begin.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/route/mobx/begin/todo-list.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/route/mobx/begin/todo-list-view.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/route/mobx/mobx.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/route/mobx/mobx.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/route/mobx/begin/begin.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/route/mobx/begin/begin.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,7 +17,17 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/package.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="293">
+              <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -33,6 +41,8 @@
   <component name="FindInProjectRecents">
     <findStrings>
       <find>Route</find>
+      <find>babel</find>
+      <find>babel-preset-react-app</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -41,10 +51,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/pages/route/common-state/temperature-input.js" />
-        <option value="$PROJECT_DIR$/src/pages/route/ref&amp;dom/ref&amp;demo.js" />
-        <option value="$PROJECT_DIR$/src/pages/route/hoc/comment-list.js" />
-        <option value="$PROJECT_DIR$/src/pages/route/hoc/with-subscription.js" />
         <option value="$PROJECT_DIR$/src/pages/route/hoc/CRUD/control.js" />
         <option value="$PROJECT_DIR$/src/pages/route/hoc/CRUD/crud.js" />
         <option value="$PROJECT_DIR$/src/pages/route/hoc/rendering-hijacked/my-component.js" />
@@ -90,8 +96,12 @@
         <option value="$PROJECT_DIR$/src/pages/button-group.js" />
         <option value="$PROJECT_DIR$/src/pages/pages.js" />
         <option value="$PROJECT_DIR$/src/pages/route/mobx/begin/todo-list.js" />
-        <option value="$PROJECT_DIR$/src/pages/route/mobx/begin/begin.js" />
         <option value="$PROJECT_DIR$/src/pages/route/mobx/mobx.js" />
+        <option value="$PROJECT_DIR$/src/pages/route/mobx/begin/begin.js" />
+        <option value="$PROJECT_DIR$/src/pages/route/mobx/begin/todo-list-view.js" />
+        <option value="$PROJECT_DIR$/.babelrc" />
+        <option value="$PROJECT_DIR$/config-overrides.js" />
+        <option value="$PROJECT_DIR$/package.json" />
       </list>
     </option>
   </component>
@@ -120,41 +130,6 @@
             <path>
               <item name="react-demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="react-demo" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="route" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="route" type="462c0819:PsiDirectoryNode" />
-              <item name="mobx" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="route" type="462c0819:PsiDirectoryNode" />
-              <item name="mobx" type="462c0819:PsiDirectoryNode" />
-              <item name="begin" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -204,8 +179,18 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="npm.npm start">
+  <component name="RunManager" selected="npm.eject">
     <configuration name="Debug Application" type="JavascriptDebugType" uri="http://localhost:3000">
+      <method v="2" />
+    </configuration>
+    <configuration name="eject" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="eject" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="npm start" type="js.build_tools.npm">
@@ -218,6 +203,11 @@
       <envs />
       <method v="2" />
     </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="npm.eject" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -240,7 +230,7 @@
       <workItem from="1561690068726" duration="2320000" />
       <workItem from="1561816201912" duration="12657000" />
       <workItem from="1562122864523" duration="4898000" />
-      <workItem from="1562135148099" duration="6113000" />
+      <workItem from="1562135148099" duration="9632000" />
     </task>
     <task id="LOCAL-00001" summary="完成变量提升">
       <created>1561098723355</created>
@@ -473,28 +463,42 @@
       <option name="project" value="LOCAL" />
       <updated>1562141090455</updated>
     </task>
-    <option name="localTasksCounter" value="34" />
+    <task id="LOCAL-00034" summary="安装mobx mobx-react">
+      <created>1562142453032</created>
+      <option name="number" value="00034" />
+      <option name="presentableId" value="LOCAL-00034" />
+      <option name="project" value="LOCAL" />
+      <updated>1562142453032</updated>
+    </task>
+    <task id="LOCAL-00035" summary="初始化mobx">
+      <created>1562142465686</created>
+      <option name="number" value="00035" />
+      <option name="presentableId" value="LOCAL-00035" />
+      <option name="project" value="LOCAL" />
+      <updated>1562142465686</updated>
+    </task>
+    <option name="localTasksCounter" value="36" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="71567000" />
+    <option name="totallyTimeSpent" value="75086000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1440" height="900" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24947146" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="npm" order="2" side_tool="true" />
       <window_info id="Favorites" order="3" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32923833" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32678133" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.32678133" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.36855036" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.8255528" />
       <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
       <window_info anchor="bottom" id="Terminal" order="10" weight="0.44717446" />
       <window_info anchor="bottom" id="TypeScript" order="11" />
@@ -530,45 +534,67 @@
     <option name="version" value="1" />
     <option name="exactExcludedFiles">
       <list>
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/property-names.js.map" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/class-names.js.map" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/input-names.js.map" />
+        <option value="$PROJECT_DIR$/../wms-web/node_modules/karma/config.tpl.js" />
         <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/index.js.map" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/element-selectors.d.ts" />
+        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/class-names.js.map" />
+        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/constructor-checks.js.map" />
         <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/element-selectors.js.map" />
         <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/class-names.d.ts" />
+        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/property-names.js.map" />
         <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/css-selectors.js.map" />
+        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/method-call-checks.d.ts" />
+        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/index.d.ts" />
+        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/input-names.d.ts" />
+        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/property-names.js" />
+        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/property-names.d.ts" />
         <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/output-names.js.map" />
         <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/output-names.d.ts" />
+        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/input-names.js" />
+        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/input-names.js.map" />
+        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/class-names.js" />
         <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/method-call-checks.js.map" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/property-names.js" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/input-names.d.ts" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/constructor-checks.js.map" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/index.d.ts" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/constructor-checks.js" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/attribute-selectors.js" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/method-call-checks.d.ts" />
+        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/constructor-checks.d.ts" />
         <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/attribute-selectors.js.map" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/index.js" />
+        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/attribute-selectors.js" />
+        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/constructor-checks.js" />
         <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/attribute-selectors.d.ts" />
         <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/element-selectors.js" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/css-selectors.js" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/property-names.d.ts" />
+        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/element-selectors.d.ts" />
         <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/css-selectors.d.ts" />
         <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/method-call-checks.js" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/class-names.js" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/constructor-checks.d.ts" />
         <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/output-names.js" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/input-names.js" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/karma/config.tpl.js" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/karma/config.tpl.js" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/karma/config.tpl.js" />
+        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/css-selectors.js" />
+        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/index.js" />
       </list>
     </option>
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="引入antd" />
-    <MESSAGE value="按钮替换为antd按钮，并且按钮样式随路有变化而改变" />
     <MESSAGE value="输入框替换为antd输入框" />
     <MESSAGE value="ref&amp;dom" />
     <MESSAGE value="添加注释" />
@@ -592,82 +618,13 @@
     <MESSAGE value="完成effect hook" />
     <MESSAGE value="完成自定义hook" />
     <MESSAGE value="初始化mobx页面" />
-    <option name="LAST_COMMIT_MESSAGE" value="初始化mobx页面" />
+    <MESSAGE value="安装mobx mobx-react" />
+    <MESSAGE value="初始化mobx" />
+    <option name="LAST_COMMIT_MESSAGE" value="初始化mobx" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pages/route/hoc/CRUD/control.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="52">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/route/hoc/rendering-hijacked/loading.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="34" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/route/hoc/rendering-hijacked/my-component.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/route/hoc/rendering-hijacked/rendering-hijacked.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="39" selection-start-line="13" selection-start-column="39" selection-end-line="13" selection-end-column="39" />
-          <folding>
-            <element signature="e#0#41#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/route/hoc/hoc.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="58" lean-forward="true" selection-start-line="5" selection-start-column="58" selection-end-line="5" selection-end-column="58" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/route/hoc/route-guard/home.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/route/hoc/route-guard/route-guard.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/route/portals/parent.js" />
     <entry file="file://$PROJECT_DIR$/src/pages/route/portal/child.js" />
-    <entry file="file://$PROJECT_DIR$/package.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="12" column="33" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/route/portal/portal.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="273">
@@ -972,13 +929,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/route/mobx/begin/todo-list.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="7" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/route/api-reference/api-reference.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1">
@@ -989,13 +939,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/route/mobx/begin/begin.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="15" selection-start-line="5" selection-start-column="15" selection-end-line="5" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/route/mobx/mobx.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
@@ -1003,6 +946,74 @@
           <folding>
             <element signature="e#0#45#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/route/mobx/begin/todo-list.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="8" selection-start-line="6" selection-start-column="8" selection-end-line="6" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/route/mobx/begin/begin.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="29" selection-start-line="4" selection-start-column="29" selection-end-line="4" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/route/mobx/begin/todo-list-view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="273">
+          <caret line="13" column="9" selection-start-line="13" selection-start-column="9" selection-end-line="13" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@babel/core/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/@babel/generator/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.babelrc">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="3" selection-start-line="3" selection-start-column="3" selection-end-line="3" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config-overrides.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/react-scripts/config/webpack.config.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="362" column="56" selection-start-line="362" selection-start-column="56" selection-end-line="362" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/node_modules/babel-preset-react-app/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" lean-forward="true" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="293">
+          <caret line="21" column="34" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
         </state>
       </provider>
     </entry>
