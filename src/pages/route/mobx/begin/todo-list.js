@@ -1,7 +1,9 @@
 import {computed, observable} from "mobx";
 
 export class TodoList {
-    @observable todos = [];
+    @observable todos = [
+        {finished: true, title: '唱歌', id: 1}
+    ];
 
     @computed
     get unfinishedTodoCount() {
