@@ -1,11 +1,11 @@
 import React from 'react';
 import ObservableView from "./observable-view";
-import {map} from "./observable-demo";
+import * as props from "./observable-demo";
 
 function observableIndex() {
     return (
         <div>
-            <ObservableView map={map}/>
+            <ObservableView {...props}/>
         </div>
     )
 }
