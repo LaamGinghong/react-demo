@@ -1,6 +1,8 @@
-import React, {Suspense} from "react";
+import React, {lazy, Suspense} from "react";
 import {Button} from "antd";
 import {Redirect, Route, Switch} from "react-router-dom";
+
+const observableIndex = lazy(() => import('./observable'));
 
 class ObservableRelated extends React.Component {
     constructor(props) {
@@ -23,8 +25,9 @@ class ObservableRelated extends React.Component {
                 {buttons}
                 <Suspense fallback={<div>加载中...</div>}>
                     <Switch>
-                        <Route exact path='/mobx'
+                        <Route exact path='/mobx/observable-related'
                                render={() => ((<Redirect to='/mobx/observable-related/observable'/>))}/>
+                        <Route path='/mobx/observable-related/observable' component={observableIndex}/>
                     </Switch>
                 </Suspense>
             </div>
