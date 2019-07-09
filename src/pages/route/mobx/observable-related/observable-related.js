@@ -3,12 +3,14 @@ import {Button} from "antd";
 import {Redirect, Route, Switch} from "react-router-dom";
 
 const observableIndex = lazy(() => import('./observable'));
+const observableDecorateIndex = lazy(() => import('./@observable'));
 
 class ObservableRelated extends React.Component {
     constructor(props) {
         super(props);
         this.buttons = [
-            {url: '/mobx/observable-related/observable', name: 'observable'}
+            {url: '/mobx/observable-related/observable', name: 'observable'},
+            {url: '/mobx/observable-related/observable-decorate', name: '@observable'}
         ];
     }
 
@@ -28,6 +30,8 @@ class ObservableRelated extends React.Component {
                         <Route exact path='/mobx/observable-related'
                                render={() => ((<Redirect to='/mobx/observable-related/observable'/>))}/>
                         <Route path='/mobx/observable-related/observable' component={observableIndex}/>
+                        <Route path='/mobx/observable-related/observable-decorate'
+                               component={observableDecorateIndex}/>
                     </Switch>
                 </Suspense>
             </div>
