@@ -1,4 +1,4 @@
-import {computed, observable} from "mobx";
+import {computed, observable, autorun, action} from "mobx";
 
 export class TodoList {
     @observable todos = [
@@ -8,5 +8,16 @@ export class TodoList {
     @computed
     get unfinishedTodoCount() {
         return this.todos.filter(item => !item.finished).length
+    }
+
+    @action
+    setItem(e) {
+        this.todos = [e];
+    }
+
+    constructor() {
+        autorun(() => {
+            console.log(this.todos);
+        });
     }
 }

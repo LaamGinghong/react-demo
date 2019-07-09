@@ -1,6 +1,6 @@
 import React, {Component} from 'react';
 import {observer} from "mobx-react";
-import {Checkbox} from "antd";
+import {Button, Checkbox} from "antd";
 
 const TodoView = observer(({todo}) =>
     <li>
@@ -10,8 +10,14 @@ const TodoView = observer(({todo}) =>
 
 @observer
 class TodoListView extends Component {
+    todoList;
     constructor(props) {
         super(props);
+        this.newItem = {
+            finished: false,
+            title: '打游戏',
+            id: 2
+        }
     }
 
     render() {
@@ -20,6 +26,7 @@ class TodoListView extends Component {
                 {this.props.todoList.todos.map(item => <TodoView todo={item} key={item.id}/>)}
             </ul>
             Tasks left: {this.props.todoList.unfinishedTodoCount}
+            <Button onClick={() => this.props.todoList.setItem(this.newItem)}>修改</Button>
         </div>
     }
 }
