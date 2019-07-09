@@ -7,7 +7,12 @@ export class TodoList {
 
     @computed
     get unfinishedTodoCount() {
-        return this.todos.filter(item => !item.finished).length
+        return this.todos.filter(item => !item.finished).length;
+    }
+
+    @computed
+    get finishedTodoCount() {
+        return this.todos.filter(item => item.finished).length;
     }
 
     @action
@@ -17,7 +22,7 @@ export class TodoList {
 
     constructor() {
         autorun(() => {
-            console.log(this.todos);
+            console.log('完成了%d中的%d项', this.finishedTodoCount, this.todos.length);
         });
     }
 }
