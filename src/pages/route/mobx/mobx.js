@@ -3,12 +3,14 @@ import {Button} from "antd";
 import {Switch, Route, Redirect} from 'react-router-dom';
 
 const begin = lazy(() => import('./begin/begin'));
+const observableRelated = lazy(() => import('./observable-related/observable-related'));
 
 class Mobx extends Component {
     constructor(props) {
         super(props);
         this.buttons = [
-            {url: '/mobx/begin', name: '起始'}
+            {url: '/mobx/begin', name: '起始'},
+            {url: '/mobx/observable-related', name: 'observable相关'}
         ]
     }
 
@@ -28,6 +30,7 @@ class Mobx extends Component {
                         <Route exact path='/mobx'
                                render={() => ((<Redirect to='/mobx/begin'/>))}/>
                         <Route path='/mobx/begin' component={begin}/>
+                        <Route path='/mobx/observable-related' component={observableRelated}/>
                     </Switch>
                 </Suspense>
             </>
