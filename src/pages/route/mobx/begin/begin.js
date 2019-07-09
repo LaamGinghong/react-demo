@@ -1,13 +1,18 @@
 import React from "react";
 import TodoListView from "./todo-list-view";
 import {TodoList} from "./todo-list";
+import TimerView from "./timer-view";
+import {appState} from './timer';
+import {Divider} from "antd";
 
-const store = new TodoList();
+const todoList = new TodoList();
 
 function Begin() {
     return (
         <div>
-            <TodoListView todoList={store}/>
+            <TodoListView todoList={todoList}/>
+            <Divider/>
+            <TimerView appState={appState}/>
         </div>
     )
 }
