@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="362e31fd-81d0-4234-895b-651ea781c35e" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/pages/route/mobx/observable-related/@observable/index.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/route/mobx/observable-related/@observable/observable-decorate-demo.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pages/route/mobx/observable-related/@observable/observable-decorate-view.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/route/mobx/observable-related/observable-related.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/route/mobx/observable-related/observable-related.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/route/mobx/observable-related/observable/observable-view.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/route/mobx/observable-related/observable/observable-view.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/route/hoc/rendering-hijacked/loading.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/route/hoc/rendering-hijacked/loading.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/route/hoc/rendering-hijacked/my-component.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/route/hoc/rendering-hijacked/my-component.js" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -19,21 +16,36 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/pages/route/mobx/observable-related/@observable/observable-decorate-demo.js">
+        <entry file="file://$PROJECT_DIR$/src/pages/route/hoc/rendering-hijacked/loading.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="28" selection-start-column="28" selection-end-column="28" />
+            <state relative-caret-position="147">
+              <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/pages/route/hoc/rendering-hijacked/my-component.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#31#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/pages/route/mobx/observable-related/@observable/observable-decorate-view.js">
+        <entry file="file://$PROJECT_DIR$/src/pages/route/hoc/rendering-hijacked/rendering-hijacked.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+            <state relative-caret-position="420">
+              <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+              <folding>
+                <element signature="e#0#41#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -55,7 +67,11 @@
       <find>babel</find>
       <find>babel-preset-react-app</find>
       <find>react-script</find>
+      <find>forwardRef</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -63,8 +79,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/pages/route/portal/parent.js" />
-        <option value="$PROJECT_DIR$/src/pages/route/props/props.js" />
         <option value="$PROJECT_DIR$/src/pages/route/default-props/default-props.js" />
         <option value="$PROJECT_DIR$/src/pages/route/render-props/mouse.js" />
         <option value="$PROJECT_DIR$/src/pages/route/render-props/tracker.js" />
@@ -79,7 +93,6 @@
         <option value="$PROJECT_DIR$/src/pages/route/api-reference/children/parent.js" />
         <option value="$PROJECT_DIR$/src/pages/route/api-reference/create-ref.js" />
         <option value="$PROJECT_DIR$/src/pages/route/api-reference/create-ref/create-ref.js" />
-        <option value="$PROJECT_DIR$/src/pages/route/api-reference/forward-ref/forward-ref.js" />
         <option value="$PROJECT_DIR$/src/pages/route/api-reference/lazy-load/lazy-load.js" />
         <option value="$PROJECT_DIR$/src/pages/route/api-reference/lazy-load/child.js" />
         <option value="$PROJECT_DIR$/src/pages/route/api-reference/lazy-load/parent.js" />
@@ -114,6 +127,9 @@
         <option value="$PROJECT_DIR$/src/pages/route/mobx/observable-related/@observable/index.js" />
         <option value="$PROJECT_DIR$/src/pages/route/mobx/observable-related/@observable/observable-decorate-demo.js" />
         <option value="$PROJECT_DIR$/src/pages/route/mobx/observable-related/@observable/observable-decorate-view.js" />
+        <option value="$PROJECT_DIR$/src/pages/route/api-reference/forward-ref/forward-ref.js" />
+        <option value="$PROJECT_DIR$/src/pages/route/hoc/rendering-hijacked/loading.js" />
+        <option value="$PROJECT_DIR$/src/pages/route/hoc/rendering-hijacked/my-component.js" />
       </list>
     </option>
   </component>
@@ -136,6 +152,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -167,7 +184,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="route" type="462c0819:PsiDirectoryNode" />
-              <item name="mobx" type="462c0819:PsiDirectoryNode" />
+              <item name="hoc" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="react-demo" type="b2602c69:ProjectViewProjectNode" />
@@ -175,24 +192,13 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="pages" type="462c0819:PsiDirectoryNode" />
               <item name="route" type="462c0819:PsiDirectoryNode" />
-              <item name="mobx" type="462c0819:PsiDirectoryNode" />
-              <item name="observable-related" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="react-demo" type="b2602c69:ProjectViewProjectNode" />
-              <item name="react-demo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="pages" type="462c0819:PsiDirectoryNode" />
-              <item name="route" type="462c0819:PsiDirectoryNode" />
-              <item name="mobx" type="462c0819:PsiDirectoryNode" />
-              <item name="observable-related" type="462c0819:PsiDirectoryNode" />
-              <item name="@observable" type="462c0819:PsiDirectoryNode" />
+              <item name="hoc" type="462c0819:PsiDirectoryNode" />
+              <item name="rendering-hijacked" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -293,7 +299,10 @@
       <workItem from="1561816201912" duration="12657000" />
       <workItem from="1562122864523" duration="4898000" />
       <workItem from="1562135148099" duration="9632000" />
-      <workItem from="1562651154624" duration="9474000" />
+      <workItem from="1562651154624" duration="9753000" />
+      <workItem from="1562737225786" duration="8000" />
+      <workItem from="1563852795826" duration="2665000" />
+      <workItem from="1563936900348" duration="1559000" />
     </task>
     <task id="LOCAL-00001" summary="完成变量提升">
       <created>1561098723355</created>
@@ -603,11 +612,18 @@
       <option name="project" value="LOCAL" />
       <updated>1562664940977</updated>
     </task>
-    <option name="localTasksCounter" value="45" />
+    <task id="LOCAL-00045" summary="完成@observable模块">
+      <created>1562665905176</created>
+      <option name="number" value="00045" />
+      <option name="presentableId" value="LOCAL-00045" />
+      <option name="project" value="LOCAL" />
+      <updated>1562665905176</updated>
+    </task>
+    <option name="localTasksCounter" value="46" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="86117000" />
+    <option name="totallyTimeSpent" value="90628000" />
   </component>
   <component name="TodoView" selected-index="4">
     <todo-panel id="selected-file">
@@ -668,41 +684,6 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
-    <option name="exactExcludedFiles">
-      <list>
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/karma/config.tpl.js" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/index.js.map" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/class-names.js.map" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/constructor-checks.js.map" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/element-selectors.js.map" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/class-names.d.ts" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/property-names.js.map" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/css-selectors.js.map" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/method-call-checks.d.ts" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/index.d.ts" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/input-names.d.ts" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/property-names.js" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/property-names.d.ts" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/output-names.js.map" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/output-names.d.ts" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/input-names.js" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/input-names.js.map" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/class-names.js" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/method-call-checks.js.map" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/constructor-checks.d.ts" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/attribute-selectors.js.map" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/attribute-selectors.js" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/constructor-checks.js" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/attribute-selectors.d.ts" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/element-selectors.js" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/element-selectors.d.ts" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/css-selectors.d.ts" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/method-call-checks.js" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/output-names.js" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/css-selectors.js" />
-        <option value="$PROJECT_DIR$/../wms-web/node_modules/@angular/cdk/schematics/ng-update/data/index.js" />
-      </list>
-    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -745,7 +726,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="高阶组件hoc" />
     <MESSAGE value="完成portal的事件冒泡" />
     <MESSAGE value="完成默认props" />
     <MESSAGE value="修改props文件夹为default-props" />
@@ -770,69 +750,10 @@
     <MESSAGE value="初始化observable相关模块" />
     <MESSAGE value="初始化observable模块" />
     <MESSAGE value="完成observable模块" />
-    <option name="LAST_COMMIT_MESSAGE" value="完成observable模块" />
+    <MESSAGE value="完成@observable模块" />
+    <option name="LAST_COMMIT_MESSAGE" value="完成@observable模块" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/pages/route/file-input/file-input.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" selection-start-line="12" selection-end-line="12" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/route/api-reference/clone-element/clone-element.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="57" selection-start-line="8" selection-start-column="57" selection-end-line="8" selection-end-column="57" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/route/api-reference/children/index.js" />
-    <entry file="file://$PROJECT_DIR$/src/pages/route/api-reference/children/child.js" />
-    <entry file="file://$PROJECT_DIR$/src/pages/route/api-reference/children/parent.js" />
-    <entry file="file://$PROJECT_DIR$/src/pages/route/api-reference/is-valid-element/is-valid-element.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="629">
-          <caret line="52" selection-start-line="52" selection-end-line="52" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/route/api-reference/create-ref/create-ref.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="8" selection-start-line="1" selection-start-column="8" selection-end-line="1" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/route/ref&amp;dom/ref&amp;demo.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="35" lean-forward="true" selection-start-line="11" selection-start-column="35" selection-end-line="11" selection-end-column="35" />
-          <folding>
-            <element signature="e#0#26#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/route/api-reference/forward-ref/forward-ref.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="50" lean-forward="true" selection-start-line="6" selection-start-column="50" selection-end-line="6" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#31#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/route/api-reference/lazy-load/child.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -1153,6 +1074,13 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/route/mobx/observable-related/@observable/observable-decorate-view.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/pages/route/mobx/observable-related/@observable/observable-decorate-demo.js">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -1160,10 +1088,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/pages/route/mobx/observable-related/@observable/observable-decorate-view.js">
+    <entry file="file://$PROJECT_DIR$/src/pages/route/default-props/default-props.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/route/portal/modal.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="44" lean-forward="true" selection-start-line="3" selection-start-column="44" selection-end-line="3" selection-end-column="44" />
+        <state>
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/route/portal/portal.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="10" selection-start-line="20" selection-start-column="10" selection-end-line="20" selection-end-column="10" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/route/portal/parent.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="23" column="41" selection-start-line="23" selection-start-column="41" selection-end-line="23" selection-end-column="41" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/route/api-reference/forward-ref/forward-ref.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="84">
+          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/route/hoc/hoc.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/route/hoc/rendering-hijacked/loading.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="9" lean-forward="true" selection-start-line="7" selection-start-column="9" selection-end-line="7" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/route/hoc/rendering-hijacked/my-component.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="27" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#31#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/pages/route/hoc/rendering-hijacked/rendering-hijacked.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="33" lean-forward="true" selection-start-line="20" selection-start-column="33" selection-end-line="20" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
